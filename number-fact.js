@@ -6,7 +6,7 @@ let factText = document.querySelector('#factText');
 
 let numberInput = document.querySelector('#numberInput');
 //addeventlistener
-numberInput.addEventListener('input', getFactAjax);
+numberInput.addEventListener('input', getFactFetch);
 
 /*
 //getfactajax function
@@ -35,6 +35,7 @@ function getFactFetch(){
   fetch('http://numbersapi.com' + number)
   .then(response => response.text())
   .then(data => {
-
+    console.log(data);
   })
+  .catch(err => console.log(err));
 }
