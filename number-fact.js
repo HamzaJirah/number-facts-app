@@ -19,6 +19,7 @@ function getFactAjax(){
  httpRequest.onload = function(){
   if(this.status == 200 && number != ''){
     fact.style.display = 'block';
+    factText.innerText = this.responseText;
   }
  }
  httpRequest.send();
