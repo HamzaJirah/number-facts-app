@@ -33,4 +33,8 @@ function getFactFetch(){
   let number = numberInput.value;
 
   fetch('http://numbersapi.com' + number)
+  .then(response => response.text())
+  .then(data{
+    
+  })
 }
