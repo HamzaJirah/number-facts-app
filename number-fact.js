@@ -28,3 +28,7 @@ function getFactAjax(){
 } */
 
 //FETCH API METHOD
+
+function getFactFetch(){
+  
+}
