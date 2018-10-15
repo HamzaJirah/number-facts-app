@@ -7,6 +7,8 @@ let factText = document.querySelector('#factText');
 let numberInput = document.querySelector('#numberInput');
 //addeventlistener
 numberInput.addEventListener('input', getFactAjax);
+
+/*
 //getfactajax function
 function getFactAjax(){
  let number = numberInput.value;
@@ -23,4 +25,4 @@ function getFactAjax(){
   }
  }
  httpRequest.send();
-}
+} */
