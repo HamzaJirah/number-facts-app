@@ -8,3 +8,6 @@ let numberInput = document.querySelector('#numberInput');
 //addeventlistener
 numberInput.addEventListener('input', getFactAjax);
 //getfactajax function
+function getFactAjax(){
+  console.log('factajax');
+}
