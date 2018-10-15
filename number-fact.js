@@ -34,7 +34,7 @@ function getFactFetch(){
 
   fetch('http://numbersapi.com' + number)
   .then(response => response.text())
-  .then(data{
-    
+  .then(data => {
+
   })
 }
