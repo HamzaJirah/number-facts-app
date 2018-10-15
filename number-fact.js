@@ -31,4 +31,6 @@ function getFactAjax(){
 
 function getFactFetch(){
   let number = numberInput.value;
+
+  fetch('http://numbersapi.com' + number)
 }
