@@ -10,5 +10,7 @@ numberInput.addEventListener('input', getFactAjax);
 //getfactajax function
 function getFactAjax(){
  let number = numberInput.value;
- console.log(number);
+ 
+ //ajax request
+ let httpRequest = new XMLHttpRequest();
 }
