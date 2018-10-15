@@ -26,3 +26,5 @@ function getFactAjax(){
  }
  httpRequest.send();
 } */
+
+//FETCH API METHOD
