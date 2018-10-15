@@ -6,3 +6,4 @@ let factText = document.querySelector('#factText');
 
 let numberInput = document.querySelector('#numberInput');
 //addeventlistener
+numberInput.addEventListener('input', getFactAjax);
