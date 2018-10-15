@@ -13,4 +13,6 @@ function getFactAjax(){
  
  //ajax request
  let httpRequest = new XMLHttpRequest();
+ //request to external api
+ httpRequest.open('GET', 'http://numbersapi.com/'+number);
 }
