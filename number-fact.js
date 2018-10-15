@@ -17,6 +17,7 @@ function getFactAjax(){
  httpRequest.open('GET', 'http://numbersapi.com/'+number);
 
  httpRequest.onload = function(){
-   
+
  }
+ httpRequest.send();
 }
