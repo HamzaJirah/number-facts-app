@@ -9,5 +9,5 @@ let numberInput = document.querySelector('#numberInput');
 numberInput.addEventListener('input', getFactAjax);
 //getfactajax function
 function getFactAjax(){
-  console.log('factajax');
+ let number = numberInput.value;
 }
