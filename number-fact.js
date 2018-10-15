@@ -30,5 +30,5 @@ function getFactAjax(){
 //FETCH API METHOD
 
 function getFactFetch(){
-  
+  let number = numberInput.value;
 }
