@@ -35,7 +35,10 @@ function getFactFetch(){
   fetch('http://numbersapi.com/'+number)
   .then(response => response.text())
   .then(data => {
-    console.log(data);
+    if(number != ''){
+      fact.style.display = 'block';
+      factText.innerText = this.responseText;
+    }
   })
   .catch(err => console.log(err));
 }
